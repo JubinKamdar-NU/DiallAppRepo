@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 
 import WatchScreen from './WatchPage';
-import AskScreen from './AskPage';
+import SearchScreen from './SearchPage';
 
 
 const Tab = createBottomTabNavigator();
@@ -31,7 +31,7 @@ const BottomTabNavigator = () => {
   
       >
         <Tab.Screen name="Watch" component={WatchScreen} />
-        <Tab.Screen name="Ask" component={AskScreen} />
+        <Tab.Screen name="Ask" component={SearchScreen} />
         
       </Tab.Navigator>
     </NavigationContainer>

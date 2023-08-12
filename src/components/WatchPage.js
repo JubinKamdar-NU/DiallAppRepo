@@ -5,6 +5,8 @@ import { Ionicons } from '@expo/vector-icons';
 
 const { width, height } = Dimensions.get('window');
 
+// Video Data
+
 const data = [
   {
     id: '1',
@@ -18,7 +20,7 @@ const data = [
     username: 'User 2',
     uri: 'https://firebasestorage.googleapis.com/v0/b/diallapp-574cb.appspot.com/o/DB7D0730-B961-41E1-8711-93DE9D1322A9.MP4?alt=media&token=1a8e014c-2589-4bde-8c13-ad0be11f4fec.mp4',
   },
-  // Add more video data entries as needed
+  
 ];
 
 const WatchPage = () => {
